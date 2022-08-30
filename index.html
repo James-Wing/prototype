@@ -3,12 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
+    <title>ID Prototype</title>
     <script>
+        /*function onLoad() {
+            localStorage.setItem('Id', 0);
+        };
+
         function myFunction() {
-            localStorage.setItem('name','Chris');
-            let myName = localStorage.getItem('name');
-            alert(myName);
+            function pad(num, size) {
+                num = num.toString();
+                while (num.length < size) num = "0" + num;
+                return num;
+            }
+
+            let oldId = localStorage.getItem('Id');
+            let newId = pad(oldId, 5);
+            localStorage.removeItem('Id');
+            localStorage.setItem('Id', oldId + 1)
+
+            alert(newId);
+        }*/
+        function myFunction() {
+            alert("Your account ID is NA00001");
         }
     </script>
     <style>
@@ -19,9 +35,11 @@
             height: 200px;
             border: 3px solid green;
         }
+
         .fuser {
             display: block;
         }
+
         .fpass {
             display: block;
         }
