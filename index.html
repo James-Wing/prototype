@@ -6,7 +6,9 @@
     <title>My First Webpage</title>
     <script>
         function myFunction() {
-            alert('hello');
+            localStorage.setItem('name','Chris');
+            let myName = localStorage.getItem('name');
+            alert(myName);
         }
     </script>
     <style>
