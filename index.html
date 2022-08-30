@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+    <script>
+        function myFunction() {
+            alert('hello');
+        }
+    </script>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            border: 3px solid green;
+        }
+        .fuser {
+            display: block;
+        }
+        .fpass {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div class="fuser">
+            <label for="username">Enter Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div class="fpass">
+            <label for="password">Enter Password:</label>
+            <input type="text" id="password" name="password">
+        </div>
+        <button type="button" onclick="myFunction()">Register</button>
+    </div>
+</body>
+
+</html>
